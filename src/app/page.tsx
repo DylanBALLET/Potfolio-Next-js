@@ -56,6 +56,33 @@ export default function Portfolio() {
                     <p>
                         Batteur dans deux groupes, une Harmonie et un groupe de Jazz.
                     </p>
+
+                </div>
+            </section>
+
+            <section className="mt-12">
+                <h2 className="text-2xl font-semibold mb-2 text-orange-300">Contact</h2>
+                <div className="bg-gray-800 border border-gray-600 p-4 rounded">
+                    <p className="text-gray-200 mb-2">Vous pouvez me contacter via les liens suivants :</p>
+                    <ul className="space-y-2">
+                        <li>
+                            <a href="https://www.linkedin.com/in/dylan-ballet/" target="_blank" rel="noopener noreferrer"
+                               className="text-orange-300 hover:underline">
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:dylanballet.pro@gmail.com" className="text-orange-300 hover:underline">
+                                Email
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/DylanBALLET/DylanBALLET" target="_blank" rel="noopener noreferrer"
+                               className="text-orange-300 hover:underline">
+                                GitHub
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </div>
